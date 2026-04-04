@@ -1,0 +1,61 @@
+{
+  "name": "mindcareai",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">",
+  "main": "index.js",
+  "dependencies": {
+    "anymatch": "^3.1.3",
+    "balanced-match": "^4.0.4",
+    "binary-extensions": "^2.3.0",
+    "brace-expansion": "^5.0.5",
+    "braces": "^3.0.3",
+    "chokidar": "^3.6.0",
+    "debug": "^4.4.3",
+    "fill-range": "^7.1.1",
+    "glob-parent": "^5.1.2",
+    "has-flag": "^3.0.0",
+    "i18next": "^26.0.3",
+    "ignore-by-default": "^1.0.1",
+    "is-binary-path": "^2.1.0",
+    "is-extglob": "^2.1.1",
+    "is-glob": "^4.0.3",
+    "is-number": "^7.0.0",
+    "minimatch": "^10.2.5",
+    "ms": "^2.1.3",
+    "nodemon": "^3.1.14",
+    "normalize-path": "^3.0.0",
+    "picomatch": "^2.3.2",
+    "pstree.remy": "^1.1.8",
+    "react-i18next": "^17.0.2",
+    "react-router-dom": "^7.13.2",
+    "readdirp": "^3.6.0",
+    "recharts": "^3.8.1",
+    "semver": "^7.7.4",
+    "simple-update-notifier": "^2.0.0",
+    "supports-color": "^5.5.0",
+    "to-regex-range": "^5.0.1",
+    "touch": "^3.1.1",
+    "undefsafe": "^2.0.5"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "scripts": {
+    "dev": "concurrently -n BACKEND,FRONTEND -c yellow,cyan \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "backend": "npm run dev --prefix backend",
+    "frontend": "npm run dev --prefix frontend",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jashanjitkaur007/Darmani.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jashanjitkaur007/Darmani/issues"
+  },
+  "homepage": "https://github.com/jashanjitkaur007/Darmani#readme"
+}
