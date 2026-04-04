@@ -46,7 +46,7 @@
 //             </div>
 //           </div>
 //           <h2 className="mt-6 text-3xl font-extrabold text-gray-900">
-//             Welcome back to MindCare AI
+//             Welcome back to eyra
 //           </h2>
 //           <p className="mt-2 text-sm text-gray-600">
 //             Sign in to continue your mental wellness journey
@@ -222,7 +222,7 @@ const Login = () => {
             </div> */}
           </div>
 
-          {/* <h1 className="text-4xl font-semibold tracking-tight text-slate-900">Darmani</h1> */}
+          {/* <h1 className="text-4xl font-semibold tracking-tight text-slate-900">eyra</h1> */}
           <p className="text-emerald-700/80 text-lg font-light mt-1">Gentle AI Companion</p>
         </div>
 

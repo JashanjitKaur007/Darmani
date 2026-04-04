@@ -38,7 +38,7 @@
 //     //         <div className="bg-gradient-to-r from-purple-600 to-indigo-600 p-2.5 rounded-2xl">
 //     //           <Brain className="h-7 w-7 text-white" />
 //     //         </div>
-//     //         <span className="text-2xl font-bold tracking-tight text-gray-900">Darmani</span>
+//     //         <span className="text-2xl font-bold tracking-tight text-gray-900">eyra</span>
 //     //       </Link>
 
 //     //       <div className="hidden md:flex items-center gap-x-8 text-base font-medium text-gray-700">
@@ -135,7 +135,7 @@ const Navbar = () => {
               <Leaf className="w-6 h-6 text-white" />
             </div>
             <span className="font-semibold text-2xl tracking-tight text-slate-900">
-              Darmani
+              eyra
             </span>
           </Link>
 
@@ -286,7 +286,7 @@ export default Navbar;
 //             <div className="w-10 h-10 bg-gradient-to-br from-emerald-600 to-teal-600 rounded-3xl flex items-center justify-center shadow-inner">
 //               <Leaf className="w-6 h-6 text-white" />
 //             </div>
-//             <span className="font-semibold text-3xl tracking-[-2px] text-slate-900">Darmani</span>
+//             <span className="font-semibold text-3xl tracking-[-2px] text-slate-900">eyra</span>
 //           </Link>
 
 //           {/* Desktop Navigation */}

@@ -1083,7 +1083,7 @@ const Profile = () => {
                     <MessageCircle className="w-6 h-6 text-emerald-600" />
                     <div className="text-left">
                       <p className="font-medium">Continue Chat</p>
-                      <p className="text-sm text-slate-500">Talk to Darmani now</p>
+                      <p className="text-sm text-slate-500">Talk to eyra now</p>
                     </div>
                   </button>
 

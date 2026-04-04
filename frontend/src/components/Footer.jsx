@@ -12,7 +12,7 @@
 //               <div className="bg-gradient-to-r from-blue-500 to-purple-600 p-2 rounded-lg">
 //                 <Brain className="h-6 w-6 text-white" />
 //               </div>
-//               <span className="text-xl font-bold">MindCare AI</span>
+//               <span className="text-xl font-bold">eyra</span>
 //             </div>
 //             <p className="text-gray-300 mb-4 max-w-md">
 //               Empowering mental wellness through AI-powered insights and personalized support. 
@@ -55,7 +55,7 @@
 //         <div className="border-t border-gray-700 mt-8 pt-8">
 //           <div className="flex flex-col md:flex-row justify-between items-center">
 //             <div className="flex items-center space-x-4 text-gray-400 text-sm">
-//               <span>© 2025 MindCare AI. All rights reserved.</span>
+//               <span>© 2025 eyra. All rights reserved.</span>
 //             </div>
 //             <div className="flex items-center space-x-2 text-gray-400 text-sm mt-4 md:mt-0">
 //               <Users className="h-4 w-4" />
@@ -87,7 +87,7 @@ const Footer = () => {
               <div className="w-11 h-11 bg-gradient-to-br from-emerald-600 to-teal-600 rounded-3xl flex items-center justify-center shadow-inner">
                 <Leaf className="w-7 h-7 text-white" />
               </div>
-              <span className="font-semibold text-4xl tracking-[-2px] text-white">Darmani</span>
+              <span className="font-semibold text-4xl tracking-[-2px] text-white">eyra</span>
             </div>
 
             <p className="text-lg text-slate-400 max-w-md leading-relaxed mb-10">
@@ -122,7 +122,7 @@ const Footer = () => {
           <div className="md:col-span-3">
             <h3 className="text-white font-semibold text-lg mb-6 tracking-tight">Platform</h3>
             <ul className="space-y-4 text-slate-400">
-              <li><Link to="/home" className="hover:text-emerald-400 transition-colors">Chat with Darmani</Link></li>
+              <li><Link to="/home" className="hover:text-emerald-400 transition-colors">Chat with eyra</Link></li>
               <li><Link to="/face-analysis" className="hover:text-emerald-400 transition-colors">Face Analysis</Link></li>
               <li><Link to="/about" className="hover:text-emerald-400 transition-colors">Our Story</Link></li>
               <li><Link to="/about#how" className="hover:text-emerald-400 transition-colors">How It Works</Link></li>
@@ -156,12 +156,12 @@ const Footer = () => {
             
             {/* Copyright */}
             <div className="text-slate-500 text-sm">
-              © {new Date().getFullYear()} Darmani. All rights reserved.
+              © {new Date().getFullYear()} eyra. All rights reserved.
             </div>
 
             {/* Disclaimer */}
             <div className="text-center md:text-left max-w-2xl text-xs leading-relaxed text-slate-500">
-              Darmani provides supportive AI-guided insights and emotional companionship. 
+              eyra provides supportive AI-guided insights and emotional companionship. 
               It is not a substitute for professional mental health care. In case of crisis, 
               please contact your local emergency services or a licensed mental health professional immediately.
             </div>

@@ -1,5 +1,5 @@
 {
-  "name": "mindcareai",
+  "name": "eyraai",
   "version": "1.0.0",
   "description": "<div align=\"center\">",
   "main": "index.js",
@@ -48,14 +48,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jashanjitkaur007/Darmani.git"
+    "url": "git+https://github.com/jashanjitkaur007/eyra.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/jashanjitkaur007/Darmani/issues"
+    "url": "https://github.com/jashanjitkaur007/eyra/issues"
   },
-  "homepage": "https://github.com/jashanjitkaur007/Darmani#readme"
+  "homepage": "https://github.com/jashanjitkaur007/eyra#readme"
 }

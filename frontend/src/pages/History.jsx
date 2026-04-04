@@ -273,7 +273,7 @@
 // // //           </h3>
 // // //           <p className="text-gray-600 max-w-md mx-auto">
 // // //             {historyData.length === 0 
-// // //               ? "Start a conversation with MindCare AI to see your history here."
+// // //               ? "Start a conversation with eyra to see your history here."
 // // //               : "Try adjusting your search terms or filters to find what you're looking for."
 // // //             }
 // // //           </p>
@@ -381,7 +381,7 @@
 // // //                               </div>
 // // //                               {/* AI Response */}
 // // //                               <div className="bg-gray-50 p-4 rounded-lg">
-// // //                                 <p className="text-xs font-medium text-purple-600 mb-2">MindCare AI:</p>
+// // //                                 <p className="text-xs font-medium text-purple-600 mb-2">eyra:</p>
 // // //                                 <div className="text-sm space-y-1">
 // // //                                   {formatAIResponse(msg.response)}
 // // //                                 </div>
@@ -396,7 +396,7 @@
 // // //                               <p className="text-sm text-gray-800">{item.prompt}</p>
 // // //                             </div>
 // // //                             <div className="bg-gray-50 p-4 rounded-lg">
-// // //                               <p className="text-xs font-medium text-purple-600 mb-2">MindCare AI:</p>
+// // //                               <p className="text-xs font-medium text-purple-600 mb-2">eyra:</p>
 // // //                               <div className="text-sm space-y-1">
 // // //                                 {formatAIResponse(item.response)}
 // // //                               </div>

@@ -12,7 +12,7 @@ const LoadingScreen = () => {
         </div>
         
         <h1 className="text-2xl font-bold text-gray-900 mb-4">
-          MindCare AI
+          eyra
         </h1>
         
         <div className="flex items-center justify-center space-x-2 text-gray-600">

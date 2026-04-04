@@ -90,7 +90,7 @@
 //                 </a>
 //             </div>
 //             <h1 className="text-5xl md:text-6xl font-bold mb-6 animate-fade-in">
-//               About Darmani
+//               About eyra
 //             </h1>
 //             <p className="text-xl md:text-2xl text-white max-w-3xl mx-auto leading-relaxed">
 //               Your trusted AI companion for mental wellness, combining cutting-edge technology 
@@ -136,7 +136,7 @@
 //               Transforming Mental Health Care with AI
 //             </h2>
 //             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-//               Darmani was born from a simple yet powerful belief: mental health support 
+//               eyra was born from a simple yet powerful belief: mental health support 
 //               should be accessible to everyone, anytime, anywhere. We leverage the latest 
 //               advancements in artificial intelligence to provide immediate, personalized, 
 //               and compassionate mental health support.
@@ -180,7 +180,7 @@
 //         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 //           <div className="text-center mb-16">
 //             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-//               Why Choose Darmani?
+//               Why Choose eyra?
 //             </h2>
 //             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
 //               We combine technology and compassion to deliver exceptional mental health support
@@ -244,7 +244,7 @@
 //             Ready to Start Your Mental Wellness Journey?
 //           </h2>
 //           <p className="text-xl text-purple-100 mb-8">
-//             Join thousands of users who trust Darmani for their mental health support
+//             Join thousands of users who trust eyra for their mental health support
 //           </p>
 //           <div className="flex flex-col sm:flex-row gap-4 justify-center">
 //             <a 
@@ -267,7 +267,7 @@
 //       <div className="bg-gray-50 py-8">
 //         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 //           <p className="text-gray-600">
-//             <span className="font-semibold text-gray-900">Note:</span> Darmani is designed to provide support and guidance. 
+//             <span className="font-semibold text-gray-900">Note:</span> eyra is designed to provide support and guidance. 
 //             For serious mental health concerns, please consult with a licensed professional.
 //           </p>
 //         </div>
@@ -335,7 +335,7 @@ const About = () => {
 
   const testimonials = [
     {
-      quote: "Darmani helped me understand my emotions on days when I couldn't even explain them to myself. It felt like talking to a truly kind friend.",
+      quote: "eyra helped me understand my emotions on days when I couldn't even explain them to myself. It felt like talking to a truly kind friend.",
       name: "Priya Sharma",
       role: "Software Engineer, Mumbai",
       rating: 5
@@ -363,7 +363,7 @@ const About = () => {
             <div className="w-10 h-10 bg-gradient-to-br from-emerald-600 to-teal-600 rounded-3xl flex items-center justify-center shadow-inner">
               <Leaf className="w-6 h-6 text-white" />
             </div>
-            <span className="font-semibold text-3xl tracking-[-2px] text-slate-900">Darmani</span>
+            <span className="font-semibold text-3xl tracking-[-2px] text-slate-900">eyra</span>
           </div>
 
           <div className="hidden md:flex items-center gap-10 text-sm font-medium text-slate-600">
@@ -399,7 +399,7 @@ const About = () => {
           </h1>
 
           <p className="max-w-3xl mx-auto text-2xl text-slate-600 mb-14 leading-relaxed font-light">
-            Darmani is your compassionate AI companion — using advanced emotion recognition to listen deeply and guide you toward calmer, clearer days.
+            eyra is your compassionate AI companion — using advanced emotion recognition to listen deeply and guide you toward calmer, clearer days.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
@@ -455,11 +455,11 @@ const About = () => {
 
             <div className="space-y-7 text-lg text-slate-600 leading-relaxed">
               <p>
-                Darmani was created because waiting weeks for help or feeling judged shouldn't be part of caring for your mind. 
+                eyra was created because waiting weeks for help or feeling judged shouldn't be part of caring for your mind. 
                 We combine the latest in AI emotion understanding with genuine empathy modeling to create a safe, immediate space for reflection and growth.
               </p>
               <p>
-                Whether you're feeling overwhelmed, anxious, low, or simply want to check in with yourself — Darmani is here, without judgment and without delay.
+                Whether you're feeling overwhelmed, anxious, low, or simply want to check in with yourself — eyra is here, without judgment and without delay.
               </p>
             </div>
           </div>
@@ -493,7 +493,7 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-20">
             <div className="text-emerald-600 font-semibold tracking-widest text-sm mb-3">SIMPLE • GENTLE • EFFECTIVE</div>
-            <h2 className="text-6xl font-semibold tracking-tighter text-slate-950">How Darmani supports you</h2>
+            <h2 className="text-6xl font-semibold tracking-tighter text-slate-950">How eyra supports you</h2>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
@@ -612,7 +612,7 @@ const About = () => {
         <div className="max-w-4xl mx-auto px-6 text-center text-slate-500 text-sm leading-relaxed">
           <p className="font-medium text-slate-700 mb-3">A gentle reminder</p>
           <p>
-            Darmani offers supportive AI-guided insights and is not a replacement for professional mental health treatment. 
+            eyra offers supportive AI-guided insights and is not a replacement for professional mental health treatment. 
             If you are in crisis or need immediate help, please reach out to a licensed therapist or your local emergency mental health services.
           </p>
         </div>

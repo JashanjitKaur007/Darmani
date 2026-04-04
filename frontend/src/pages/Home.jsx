@@ -231,7 +231,7 @@ const Home = () => {
         </div>
 
         <p className="text-center text-sm text-slate-500 mt-12">
-          Darmani is a supportive companion, not a replacement for professional care.
+          eyra is a supportive companion, not a replacement for professional care.
         </p>
       </div>
     </div>
@@ -246,7 +246,7 @@ const Home = () => {
             <Brain className="w-7 h-7 text-white" />
           </div>
           <div>
-            <h1 className="font-semibold text-3xl tracking-[-1.5px] text-slate-950">Darmani</h1>
+            <h1 className="font-semibold text-3xl tracking-[-1.5px] text-slate-950">eyra</h1>
             <p className="text-xs text-slate-500 -mt-1">Gentle AI Companion</p>
           </div>
         </Link>
@@ -302,7 +302,7 @@ const Home = () => {
             </button>
             <div className="flex items-center gap-3">
               <Sparkles className="w-6 h-6 text-emerald-600" />
-              <h2 className="font-semibold text-2xl tracking-tight text-slate-900">Darmani</h2>
+              <h2 className="font-semibold text-2xl tracking-tight text-slate-900">eyra</h2>
             </div>
           </div>
 
@@ -385,7 +385,7 @@ const Home = () => {
         value={message}
         onChange={(e) => setMessage(e.target.value)}
         onKeyDown={(e) => e.key === 'Enter' && handleSend()}
-        placeholder="Message Darmani..."
+        placeholder="Message eyra..."
         className="flex-1 bg-slate-50 border border-slate-200 focus:border-emerald-300 rounded-full py-5 px-8 text-lg placeholder-slate-400 focus:outline-none transition-all"
         disabled={loading}
       />
@@ -398,7 +398,7 @@ const Home = () => {
       </button>
     </div>
     <p className="text-center text-xs text-slate-500 mt-4">
-      Darmani offers supportive insights. Always consult professionals for serious concerns.
+      eyra offers supportive insights. Always consult professionals for serious concerns.
     </p>
   </div>
 </div>
@@ -480,7 +480,7 @@ const Home = () => {
                   </button>
                 </div>
                 <p className="text-center text-xs text-slate-500 mt-4">
-                  Darmani offers supportive insights. Always consult professionals for serious concerns.
+                  eyra offers supportive insights. Always consult professionals for serious concerns.
                 </p>
               </div>
             </div> */}
