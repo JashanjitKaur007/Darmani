@@ -1,4 +1,4 @@
-# Darmani License MongoDB React Node.js Google AI  
+# Darmani 
 
 An intelligent mental wellness companion built using the MERN stack and Google Gemini AI.
 
