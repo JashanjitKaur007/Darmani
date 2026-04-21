@@ -1,3 +1,5 @@
+// this is the ErrorBoundary component that catches JavaScript errors anywhere in its child component tree, logs those errors, and displays a fallback UI instead of the component tree that crashed. It also provides options to reload the page or try again, and in development mode, it shows error details for debugging purposes.
+
 import React from 'react';
 import { AlertTriangle, RefreshCw } from 'lucide-react';
 

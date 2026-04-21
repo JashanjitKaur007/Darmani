@@ -3,7 +3,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import { 
   Send, Plus, MessageSquare, BarChart3, Clock, User, Menu, 
-  Brain, Phone, MessageCircle, Heart, Globe, Sparkles 
+  Brain, Leaf, Phone, MessageCircle, Heart, Globe, Sparkles 
 } from 'lucide-react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
@@ -174,7 +174,9 @@ const Home = () => {
             <span className="uppercase tracking-widest text-xs font-semibold">24/7 Support</span>
           </div>
           <h1 className="text-5xl font-semibold tracking-tight text-slate-950 mb-4">
+            <span className="bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 bg-clip-text text-transparent">
             Crisis Resources
+            </span>
           </h1>
           <p className="text-xl text-slate-600 max-w-xl mx-auto">
             You're not alone. Help is available right now.
@@ -241,12 +243,22 @@ const Home = () => {
     <div className="flex h-screen overflow-hidden bg-[#f8fafc]">
       {/* Sidebar */}
       <div className={`${sidebarOpen ? 'w-72' : 'w-0'} bg-white border-r border-slate-200 flex flex-col transition-all duration-300 overflow-hidden shadow-sm`}>
+
+
+
         <Link to="/about" className="p-6 border-b border-slate-100 flex items-center gap-4 hover:bg-slate-50 transition-colors">
           <div className="w-11 h-11 bg-gradient-to-br from-emerald-600 to-teal-600 rounded-3xl flex items-center justify-center flex-shrink-0 shadow-inner">
-            <Brain className="w-7 h-7 text-white" />
+            {/* <Leaf className="w-7 h-7 text-white" /> */}
+            <Leaf className="w-6 h-6 text-white" />
           </div>
           <div>
-            <h1 className="font-semibold text-3xl tracking-[-1.5px] text-slate-950">eyra</h1>
+            <h1 className="font-semibold text-3xl tracking-[-1.5px] text-slate-950">
+              <span className="bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 bg-clip-text text-transparent">
+              eyra
+              </span>
+              </span>
+              </h1>
             <p className="text-xs text-slate-500 -mt-1">Gentle AI Companion</p>
           </div>
         </Link>
@@ -257,7 +269,7 @@ const Home = () => {
             className="w-full flex items-center justify-center gap-3 bg-emerald-50 hover:bg-emerald-100 text-emerald-700 py-4 px-6 rounded-3xl font-semibold border border-emerald-200 transition-all active:scale-[0.985]"
           >
             <Plus className="w-5 h-5" />
-            New Conversation
+            <span className="bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 bg-clip-text text-transparent">New Conversation</span>
           </button>
         </div>
 
@@ -302,12 +314,18 @@ const Home = () => {
             </button>
             <div className="flex items-center gap-3">
               <Sparkles className="w-6 h-6 text-emerald-600" />
-              <h2 className="font-semibold text-2xl tracking-tight text-slate-900">eyra</h2>
+              <h2 className="font-semibold text-2xl tracking-tight text-slate-900"><span className="bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 bg-clip-text text-transparent">
+              eyra
+              </span></h2>
             </div>
           </div>
 
           <div className="flex items-center gap-3 text-slate-600">
-            <span className="text-sm">Hello, {user?.name || 'Parneet'}</span>
+            <span className="text-sm">
+              <span className="bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 bg-clip-text text-transparent">
+              Hello, {user?.name || 'Parneet'}
+              </span>
+              </span>
             <div className="w-8 h-8 bg-emerald-100 rounded-2xl flex items-center justify-center">
               <User className="w-4 h-4 text-emerald-700" />
             </div>
@@ -319,17 +337,16 @@ const Home = () => {
           <>
 
 {/* Messages Area */}
-<div className="flex-1 overflow-y-auto p-6 md:p-8 bg-[#f8fafc] space-y-8">
+<div className="flex-1 overflow-y-auto p-6 md:p-8 bg-white/90 backdrop-blur-md space-y-8">
   {conversation.length === 0 ? (
     <div className="flex flex-col items-center justify-center h-full text-center pt-12">
       <div className="mb-12">
         <div className="w-32 h-32 mx-auto bg-gradient-to-br from-emerald-100 to-teal-100 rounded-full flex items-center justify-center">
-          <Brain className="w-20 h-20 text-emerald-600" />
+          <Leaf className="w-20 h-20 text-emerald-600" />
         </div>
       </div>
       <h1 className="text-5xl font-semibold tracking-tight text-slate-950 mb-6">
-        Hello, {user?.name || 'Parneet'}
-      </h1>
+        <span className="bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 bg-clip-text text-transparent">Hello, {user?.name || 'Parneet'}</span></h1>
       <p className="text-2xl text-slate-600 max-w-lg leading-relaxed">
         I'm here to listen with kindness.<br />
         What's been weighing on your heart today?
@@ -344,7 +361,7 @@ const Home = () => {
         <div className={`max-w-[85%] md:max-w-2xl flex gap-4 ${msg.sender === 'user' ? 'flex-row-reverse' : ''}`}>
           {msg.sender === 'ai' && (
             <div className="w-9 h-9 rounded-3xl bg-gradient-to-br from-emerald-600 to-teal-600 flex-shrink-0 mt-1 flex items-center justify-center">
-              <Brain className="w-5 h-5 text-white" />
+              <Leaf className="w-5 h-5 text-white" />
             </div>
           )}
           <div
@@ -364,7 +381,7 @@ const Home = () => {
     <div className="flex justify-start">
       <div className="flex gap-4">
         <div className="w-9 h-9 rounded-3xl bg-gradient-to-br from-emerald-600 to-teal-600 flex items-center justify-center flex-shrink-0">
-          <Brain className="w-5 h-5 text-white" />
+          <Leaf className="w-5 h-5 text-white" />
         </div>
         <div className="px-6 py-4 bg-white border border-slate-100 rounded-3xl text-slate-600 rounded-tl-none">
           Thinking gently...
@@ -376,32 +393,62 @@ const Home = () => {
   <div ref={messagesEndRef} />
 </div>
 
+
+
+
+
 {/* Message Input Area - Fixed to remove weird separation */}
-<div className="bg-white border-t border-slate-100 px-6 md:px-8 py-6">
+<div className="bg-white px-6 md:px-8 py-4">
   <div className="max-w-4xl mx-auto">
-    <div className="relative flex items-center">
-      <input
-        type="text"
+    
+    <div className="flex items-end bg-slate-50 rounded-2xl px-4 py-3 shadow-sm transition-all focus-within:bg-slate-100">
+      
+      <textarea
+        rows={1}
         value={message}
-        onChange={(e) => setMessage(e.target.value)}
-        onKeyDown={(e) => e.key === 'Enter' && handleSend()}
-        placeholder="Message eyra..."
-        className="flex-1 bg-slate-50 border border-slate-200 focus:border-emerald-300 rounded-full py-5 px-8 text-lg placeholder-slate-400 focus:outline-none transition-all"
         disabled={loading}
+        placeholder="Message eyra..."
+        onChange={(e) => {
+          setMessage(e.target.value);
+
+          // Auto expand
+          e.target.style.height = "auto";
+          e.target.style.height = Math.min(e.target.scrollHeight, 120) + "px";
+        }}
+        onKeyDown={(e) => {
+          if (e.key === "Enter" && !e.shiftKey) {
+            e.preventDefault();
+            handleSend();
+
+            // Reset height after send
+            setTimeout(() => {
+              e.target.style.height = "auto";
+            }, 0);
+          }
+        }}
+        style={{
+          outline: "none",
+          boxShadow: "none",
+          border: "none"
+        }}
+        className="flex-1 resize-none bg-transparent border-none outline-none focus:outline-none focus:ring-0 focus-visible:outline-none focus-visible:ring-0 focus-visible:ring-offset-0 text-lg placeholder-slate-400 max-h-[120px]"
       />
+
       <button
         onClick={handleSend}
         disabled={!message.trim() || loading}
-        className="absolute right-3 bg-emerald-600 hover:bg-emerald-700 disabled:bg-slate-300 text-white p-4 rounded-full transition-all active:scale-95"
+        className="ml-3 bg-emerald-600 hover:bg-emerald-700 disabled:bg-slate-300 text-white p-3 rounded-full transition-all active:scale-95"
       >
-        <Send size={22} />
+        <Send size={20} />
       </button>
+
     </div>
-    <p className="text-center text-xs text-slate-500 mt-4">
-      eyra offers supportive insights. Always consult professionals for serious concerns.
-    </p>
+    <br />
   </div>
 </div>
+
+
+
 
             {/* Messages Area */}
             {/* <div className="flex-1 overflow-y-auto p-8 md:p-12 space-y-10 bg-[#f8fafc]">
@@ -409,7 +456,7 @@ const Home = () => {
                 <div className="flex flex-col items-center justify-center h-full text-center pt-12">
                   <div className="mb-12">
                     <div className="w-32 h-32 mx-auto bg-gradient-to-br from-emerald-100 to-teal-100 rounded-full flex items-center justify-center">
-                      <Brain className="w-20 h-20 text-emerald-600" />
+                      <Leaf className="w-20 h-20 text-emerald-600" />
                     </div>
                   </div>
                   <h1 className="text-5xl font-semibold tracking-tight text-slate-950 mb-6">
@@ -426,7 +473,7 @@ const Home = () => {
                     <div className={`max-w-2xl flex gap-4 ${msg.sender === 'user' ? 'flex-row-reverse' : ''}`}>
                       {msg.sender === 'ai' && (
                         <div className="w-10 h-10 rounded-3xl bg-gradient-to-br from-emerald-600 to-teal-600 flex-shrink-0 mt-1 flex items-center justify-center">
-                          <Brain className="w-5 h-5 text-white" />
+                          <Leaf className="w-5 h-5 text-white" />
                         </div>
                       )}
                       <div
@@ -446,7 +493,7 @@ const Home = () => {
                 <div className="flex justify-start">
                   <div className="flex gap-4">
                     <div className="w-10 h-10 rounded-3xl bg-gradient-to-br from-emerald-600 to-teal-600 flex items-center justify-center flex-shrink-0">
-                      <Brain className="w-5 h-5 text-white" />
+                      <Leaf className="w-5 h-5 text-white" />
                     </div>
                     <div className="px-7 py-5 bg-white border border-slate-100 rounded-3xl text-slate-600 rounded-tl-none">
                       Thinking gently...

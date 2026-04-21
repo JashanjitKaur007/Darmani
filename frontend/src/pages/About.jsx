@@ -281,8 +281,94 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import React from 'react';
+import { MessageCircle } from 'lucide-react';
 import { Brain, Heart, Shield, Users, Sparkles, Target, Award, TrendingUp, ArrowRight, Leaf, Clock, Lock, MapPin, Star, ChevronRight } from 'lucide-react';
+import { motion } from "framer-motion"; // Add this import at the top
 
 const About = () => {
   const features = [
@@ -353,6 +439,328 @@ const About = () => {
       rating: 5
     }
   ];
+
+
+  // design 1 
+//   const SafeSpaceSection = () => {
+//   const points = [
+//     { icon: <Heart className="w-5 h-5" />, text: "Get Unbiased Advice" },
+//     { icon: <Clock className="w-5 h-5" />, text: "Available 24/7" },
+//     { icon: <Lock className="w-5 h-5" />, text: "Fully Anonymous" },
+//   ];
+
+//   return (
+//     <div className="max-w-7xl mx-auto px-6 py-28">
+//       <div className="grid lg:grid-cols-2 gap-16 items-center">
+        
+//         {/* LEFT CONTENT */}
+//         <div className="space-y-8">
+//           <h2 className="text-5xl md:text-6xl font-semibold tracking-tight text-slate-950 leading-tight">
+//             A Judgement Free Place to Discuss Everyday Problems.
+//           </h2>
+
+//           <p className="text-lg text-slate-600 leading-relaxed">
+//             Whether it’s stress at work, relationship struggles, or just needing someone to listen — your AI Therapist is here to help. 
+//             You can open up freely and explore your thoughts without worrying about being judged.
+//           </p>
+
+//           <p className="text-lg text-slate-600 leading-relaxed">
+//             Your AI therapist assistant provides a safe, empathetic space to sort through your emotions, 
+//             offering guidance and support when you need it most.
+//           </p>
+
+//           {/* FEATURES LIST */}
+//           <div className="space-y-4">
+//             {points.map((item, i) => (
+//               <div key={i} className="flex items-center gap-3 text-slate-700">
+//                 <div className="w-9 h-9 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center">
+//                   {item.icon}
+//                 </div>
+//                 <span className="font-medium">{item.text}</span>
+//               </div>
+//             ))}
+//           </div>
+
+//           {/* CTA */}
+//           <a
+//             href="/home"
+//             className="inline-flex items-center gap-3 bg-emerald-600 hover:bg-emerald-700 text-white px-10 py-5 rounded-2xl font-semibold text-lg shadow-lg hover:scale-[1.03] transition"
+//           >
+//             Talk Now
+//             <ArrowRight className="w-5 h-5" />
+//           </a>
+//         </div>
+
+//         {/* RIGHT SIDE (CARD UI / MOCK IMAGE STYLE) */}
+//         <div className="relative">
+//           <div className="bg-gradient-to-br from-emerald-100 via-teal-100 to-sky-100 p-4 rounded-3xl shadow-2xl">
+//             <div className="bg-white rounded-3xl p-10 space-y-6">
+              
+//               <div className="flex items-center gap-4">
+//                 <div className="w-12 h-12 bg-emerald-600 text-white rounded-2xl flex items-center justify-center">
+//                   <Brain className="w-6 h-6" />
+//                 </div>
+//                 <div>
+//                   <p className="font-semibold text-slate-900">AI Therapist</p>
+//                   <p className="text-sm text-slate-500">Always here for you</p>
+//                 </div>
+//               </div>
+
+//               <div className="bg-slate-50 p-4 rounded-2xl text-sm text-slate-600">
+//                 “It sounds like you’ve been feeling overwhelmed lately.  
+//                 Do you want to talk about what’s been weighing on you?”
+//               </div>
+
+//               <div className="bg-emerald-50 p-4 rounded-2xl text-sm text-emerald-700 self-end">
+//                 “Yeah… work has been really stressful.”
+//               </div>
+
+//             </div>
+//           </div>
+//         </div>
+
+//       </div>
+//     </div>
+//   );
+// };
+
+
+
+  const SafeSpaceSection = () => {
+  const points = [
+    { icon: <Heart className="w-5 h-5" />, text: "Unbiased Advice" },
+    { icon: <Clock className="w-5 h-5" />, text: "24/7 Availability" },
+    { icon: <Lock className="w-5 h-5" />, text: "100% Anonymous" },
+  ];
+
+  return (
+    <div className="relative py-32 overflow-hidden">
+      
+      {/* BACKGROUND GLOW */}
+      <div className="absolute inset-0 bg-gradient-to-br from-emerald-50 via-white to-teal-50" />
+      <div className="absolute -top-40 -left-40 w-[500px] h-[500px] bg-emerald-200 rounded-full blur-[140px] opacity-30" />
+      <div className="absolute -bottom-40 -right-40 w-[500px] h-[500px] bg-teal-200 rounded-full blur-[140px] opacity-30" />
+
+      <div className="relative max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-20 items-center">
+        
+        {/* LEFT SIDE */}
+        <div className="space-y-10">
+          
+          <div className="inline-flex items-center gap-3 bg-white/70 backdrop-blur px-6 py-2 rounded-full border border-emerald-100 shadow-sm">
+            <Sparkles className="w-4 h-4 text-emerald-600" />
+            <span className="text-sm text-emerald-700 font-medium">
+              Safe • Private • Supportive
+            </span>
+          </div>
+
+          <h2 className="text-6xl md:text-7xl font-semibold tracking-[-2px] leading-tight text-slate-950">
+            A judgement-free space
+            <br />
+            <span className="bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 bg-clip-text text-transparent">to be yourself.</span>
+          </h2>
+
+          <p className="text-xl text-slate-600 leading-relaxed max-w-xl">
+            Whether it’s stress, relationships, or just needing someone to listen —
+            your AI therapist is always here. No pressure, no judgment, just a space
+            where you can think clearly and feel understood.
+          </p>
+
+          {/* FEATURES */}
+          {/* <div className="flex flex-wrap gap-4 pt-2">
+            {points.map((item, i) => (
+              <div
+                key={i}
+                className="flex items-center gap-2 bg-white px-4 py-2 rounded-xl shadow-sm border border-slate-100"
+              >
+                <span className="text-emerald-600">{item.icon}</span>
+                <span className="text-sm font-medium text-slate-700">
+                  {item.text}
+                </span>
+              </div>
+            ))}
+          </div> */}
+
+
+
+          {/* CTA */}
+          <div className="pt-6">
+            <a
+              href="/home"
+              className="group inline-flex items-center gap-3 bg-gradient-to-r from-emerald-600 to-teal-600 text-white px-12 py-6 rounded-2xl text-lg font-semibold shadow-xl hover:shadow-2xl transition-all hover:scale-[1.04]"
+            >
+              Talk Now
+              <ArrowRight className="group-hover:translate-x-1 transition" />
+            </a>
+          </div>
+        </div>
+
+        {/* RIGHT SIDE - PREMIUM CHAT UI */}
+        <div className="relative">
+          
+          {/* Glass Card */}
+          <div className="bg-white/70 backdrop-blur-xl border border-white/40 shadow-2xl rounded-3xl p-8 space-y-6">
+
+            {/* Header */}
+            <div className="flex items-center gap-3">
+              <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-emerald-600 to-teal-600 flex items-center justify-center text-white">
+                <Brain className="w-6 h-6" />
+              </div>
+              <div>
+                <p className="font-semibold text-slate-900">AI Therapist</p>
+                <p className="text-xs text-slate-500">Online now</p>
+              </div>
+            </div>
+
+            {/* Chat bubbles */}
+            <div className="space-y-4 text-sm">
+
+              <div className="bg-slate-100 p-4 rounded-2xl text-slate-700 max-w-[80%]">
+                It sounds like something has been on your mind lately.
+                Do you want to talk about it?
+              </div>
+
+              <div className="bg-emerald-600 text-white p-4 rounded-2xl max-w-[80%] ml-auto">
+                Yeah… I’ve been feeling really overwhelmed with everything.
+              </div>
+
+              <div className="bg-slate-100 p-4 rounded-2xl text-slate-700 max-w-[80%]">
+                That makes sense. When things pile up, it can feel heavy.
+                What’s been the hardest part for you?
+              </div>
+
+            </div>
+
+            {/* Input fake */}
+            <div className="flex items-center gap-3 pt-2">
+              <div className="flex-1 bg-slate-100 rounded-xl px-4 py-3 text-slate-400 text-sm">
+                Type your message...
+              </div>
+              <div className="w-10 h-10 bg-emerald-600 rounded-xl flex items-center justify-center text-white">
+                →
+              </div>
+            </div>
+          </div>
+
+          {/* Glow behind card */}
+          <div className="absolute -z-10 inset-0 blur-3xl opacity-30 bg-gradient-to-br from-emerald-300 to-teal-300 rounded-full" />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+
+const FAQSection = () => {
+  return (
+    <>
+      <style>
+        {`
+          .faq-item {
+            transition: all 0.3s ease;
+          }
+
+          .faq-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease, opacity 0.3s ease;
+            opacity: 0;
+          }
+
+          .faq-item.active .faq-content {
+            max-height: 200px;
+            opacity: 1;
+            margin-top: 10px;
+          }
+
+          .faq-icon {
+            transition: transform 0.3s ease;
+          }
+
+          .faq-item.active .faq-icon {
+            transform: rotate(45deg);
+          }
+        `}
+      </style>
+
+      <div className="py-28 bg-white">
+        <div className="max-w-6xl mx-auto px-6">
+
+          <h2 className="text-5xl font-semibold text-center text-slate-900 mb-16">
+            <span className="bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 bg-clip-text text-transparent">Frequently Asked Questions</span>
+          </h2>
+
+          <div className="grid md:grid-cols-2 gap-6">
+
+            {
+            [
+{
+    "q": "What makes Eyra different from other AI chat tools?",
+    "a": "Eyra is built specifically for emotional well-being, focusing on meaningful conversations rather than generic responses. It aims to help you reflect, gain clarity, and build healthier mental habits over time."
+  },
+  {
+    "q": "How can Eyra help me on a daily basis?",
+    "a": "Eyra can be part of your daily routine by helping you check in with your emotions, reflect on your day, and develop small habits that support your mental wellness."
+  },
+  {
+    "q": "Does Eyra remember what I share?",
+    "a": "Eyra can retain context from your conversations to provide more relevant responses, but it is designed to respect your privacy and handle your data responsibly."
+  },
+  {
+    "q": "Is Eyra suitable for people new to mental health support?",
+    "a": "Yes, Eyra is beginner-friendly and designed to be approachable. It can be a comfortable starting point for people exploring mental wellness for the first time."
+  },
+  {
+    "q": "Can Eyra help me build better habits?",
+    "a": "Eyra can suggest simple routines, reflection exercises, and mindset shifts that encourage consistency and personal growth over time."
+  },
+  {
+    "q": "What kind of tone does Eyra use in conversations?",
+    "a": "Eyra communicates in a calm, thoughtful, and supportive tone, aiming to make conversations feel natural and easy rather than clinical or robotic."
+  },
+  {
+    "q": "Can I use Eyra anytime I want?",
+    "a": "Yes, Eyra is available whenever you need it, whether it’s late at night, during a busy day, or in moments when you just need to talk."
+  },
+  {
+    "q": "Does Eyra give direct answers or guide me to find my own?",
+    "a": "Eyra often helps you think through situations by asking reflective questions, while also offering suggestions when you’re looking for direction."
+  },
+  {
+    "q": "Is Eyra only for serious mental health concerns?",
+    "a": "No, Eyra is useful for both everyday thoughts and deeper emotional challenges. You can use it for anything from small worries to bigger life questions."
+  },
+  {
+    "q": "How quickly does Eyra respond?",
+    "a": "Eyra responds instantly, allowing you to have a smooth and uninterrupted conversation whenever you need support."
+  },
+            ].map((item, i) => (
+              <div
+                key={i}
+                className="faq-item border border-slate-200 rounded-2xl p-5 cursor-pointer"
+                onClick={(e) => {
+                  e.currentTarget.classList.toggle("active");
+                }}
+              >
+                <div className="flex justify-between items-center">
+                  <h3 className="text-lg font-medium text-slate-800">
+                    {item.q}
+                  </h3>
+                  <span className="faq-icon text-2xl text-slate-500">+</span>
+                </div>
+
+                <div className="faq-content text-slate-600 text-sm leading-relaxed">
+                  {item.a}
+                </div>
+              </div>
+            ))}
+
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
 
   return (
     <div className="min-h-screen bg-[#f8fafc] text-slate-800 font-sans overflow-x-hidden">
@@ -429,6 +837,8 @@ const About = () => {
         <div className="absolute bottom-0 left-0 right-0 h-48 bg-gradient-to-t from-[#f8fafc] to-transparent" />
       </div>
 
+      {/* <SafeSpaceSection /> */}
+
       {/* Stats */}
       <div className="max-w-7xl mx-auto px-6 -mt-16 relative z-20 pb-20">
         <div className="bg-white rounded-3xl shadow-2xl p-12 grid grid-cols-2 md:grid-cols-4 gap-8 border border-slate-100">
@@ -444,7 +854,7 @@ const About = () => {
       </div>
 
       {/* Story Section */}
-      <div id="story" className="max-w-7xl mx-auto px-6 py-28">
+      {/* <div id="story" className="max-w-7xl mx-auto px-6 py-28">
         <div className="grid lg:grid-cols-12 gap-16 items-center">
           <div className="lg:col-span-6 space-y-10">
             <div className="uppercase text-emerald-700 font-semibold tracking-widest text-sm">Our Beginning</div>
@@ -486,7 +896,11 @@ const About = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+
+
+      {/* // paste here - */}
+      <SafeSpaceSection />
 
       {/* How It Works */}
       <div id="how" className="bg-white py-28 border-y border-slate-100">
@@ -514,7 +928,7 @@ const About = () => {
       </div>
 
       {/* Features Section - Enhanced */}
-      <div id="features" className="max-w-7xl mx-auto px-6 py-28">
+      {/* <div id="features" className="max-w-7xl mx-auto px-6 py-28">
         <div className="text-center mb-20">
           <h2 className="text-6xl font-semibold tracking-tighter text-slate-950 mb-4">Thoughtfully built features</h2>
           <p className="text-xl text-slate-600 max-w-xl mx-auto">Every detail designed to make mental wellness feel approachable and supportive</p>
@@ -534,7 +948,125 @@ const About = () => {
             </div>
           ))}
         </div>
+      </div> */}
+
+
+{/* Features Grid - Redesigned */}
+<>
+  {/* Animation styles */}
+  <style>
+    {`
+      @keyframes fadeUp {
+        from {
+          opacity: 0;
+          transform: translateY(40px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    `}
+  </style>
+
+  {/* Section */}
+  <section className="py-32 bg-white">
+    <div className="max-w-7xl mx-auto px-6">
+
+      {/* Heading */}
+      <div className="text-center mb-5">
+        <h2 className="text-5xl md:text-6xl font-semibold tracking-[-2px] text-slate-950 mb-6">
+          Designed to support you,
+          <br />
+          <span className="bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 bg-clip-text text-transparent">anytime, anywhere</span>
+        </h2>
+
+        <p className="text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed">
+          A calm, private space where you can think clearly, express freely, and feel understood — without pressure or judgment.
+        </p>
       </div>
+
+      {/* Features Grid */}
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+        {[
+          {
+            icon: Clock,
+            title: "Always Available",
+            description: "Support whenever you need it — no waiting, no appointments.",
+          },
+          // {
+          //   icon: Shield,
+          //   title: "Private & Safe",
+          //   description: "Your thoughts stay yours. No tracking, no judgment.",
+          // },
+          // {
+          //   icon: Heart,
+          //   title: "Feels Human",
+          //   description: "Conversations that feel calm, natural, and genuinely supportive.",
+          // },
+          {
+            icon: Brain,
+            title: "Guided Clarity",
+            description: "Understand your thoughts with structured reflection.",
+          },
+          {
+            icon: MessageCircle,
+            title: "Effortless to Use",
+            description: "Just start typing. No learning curve, no friction.",
+          },
+          {
+            icon: Sparkles,
+            title: "Adapts to You",
+            description: "Responses evolve based on your needs over time.",
+          },
+        ].map((feature, index) => {
+          const Icon = feature.icon;
+
+          return (
+            <div
+              key={index}
+              style={{
+                animation: `fadeUp 0.6s ease forwards`,
+                animationDelay: `${index * 0.1}s`,
+                opacity: 0,
+              }}
+              className="group translate-y-10"
+            >
+              <div className="relative h-full rounded-3xl p-[1px] bg-gradient-to-b from-slate-200 to-transparent hover:from-emerald-300 transition-all duration-500">
+
+                {/* Card */}
+                <div className="h-full bg-white/80 backdrop-blur-xl rounded-3xl p-10 transition-all duration-500 group-hover:shadow-2xl group-hover:-translate-y-2">
+
+                  {/* ICON */}
+                  <div className="mb-8 relative">
+                    <div className="w-14 h-14 rounded-2xl bg-slate-100 flex items-center justify-center text-slate-700 group-hover:bg-emerald-600 group-hover:text-white transition-all duration-300">
+                      <Icon className="w-7 h-7" />
+                    </div>
+
+                    <div className="absolute inset-0 blur-xl opacity-0 group-hover:opacity-40 bg-emerald-300 transition" />
+                  </div>
+
+                  {/* TEXT */}
+                  <h3 className="text-xl font-semibold text-slate-900 mb-3">
+                    {feature.title}
+                  </h3>
+
+                  <p className="text-slate-600 leading-relaxed text-[15px]">
+                    {feature.description}
+                  </p>
+
+                  {/* bottom line */}
+                  <div className="mt-8 h-[2px] w-0 bg-emerald-500 group-hover:w-full transition-all duration-500" />
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
+    </div>
+  </section>
+</>
 
       {/* Testimonials */}
       <div className="bg-slate-50 py-28">
@@ -560,6 +1092,10 @@ const About = () => {
         </div>
       </div>
 
+
+{/* How It Works Section */}
+
+
       {/* Values */}
       <div id="values" className="max-w-7xl mx-auto px-6 py-28">
         <div className="text-center mb-20">
@@ -579,6 +1115,16 @@ const About = () => {
           ))}
         </div>
       </div>
+
+
+
+
+{/* ✅ ADD HERE */}
+<FAQSection />
+
+
+
+
 
       {/* Final CTA */}
       <div className="bg-gradient-to-br from-emerald-700 via-teal-700 to-cyan-700 py-32 text-white">
@@ -609,8 +1155,8 @@ const About = () => {
 
       {/* Footer Note */}
       <div className="bg-white py-20 border-t border-slate-100">
-        <div className="max-w-4xl mx-auto px-6 text-center text-slate-500 text-sm leading-relaxed">
-          <p className="font-medium text-slate-700 mb-3">A gentle reminder</p>
+        <div className="max-w-4xl mx-auto px-6 text-center text-slate-500 text-sm leading-relaxed">anytime, anywhere..
+          <p className="font-medium text-slate-700 mb-3"><span className="bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 bg-clip-text text-transparent">A gentle reminder</span></p>
           <p>
             eyra offers supportive AI-guided insights and is not a replacement for professional mental health treatment. 
             If you are in crisis or need immediate help, please reach out to a licensed therapist or your local emergency mental health services.
