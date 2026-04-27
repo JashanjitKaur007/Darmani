@@ -18,7 +18,12 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Generate visualization
-        uses: githubocto/repo-visualizer@0.9.1
+        uses: githubocto/repo-visualizer@main
         with:
           output_file: diagram.svg
           should_push: true
+          max_depth: 2
+          included_paths: "backend,frontend"
+          excluded_paths: "node_modules,.git,dist,build"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
