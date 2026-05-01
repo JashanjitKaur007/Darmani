@@ -14,13 +14,11 @@
 |  **Yashasvi Nag**  | 2210990975  |
 
 
-<br><br>
 ---
 <br><br>
 
 An intelligent, accessible, and user-centric platform designed to provide evidence-based mental health support through conversational AI, clinically-grounded assessments, and intuitive design.
 
-<br><br>
 ---
 <br><br>
 
@@ -37,7 +35,6 @@ An intelligent, accessible, and user-centric platform designed to provide eviden
 - [Disclaimer](#disclaimer)
 - [Future Roadmap](#future-roadmap)
 
-<br><br>
 ---
 <br><br>
 
@@ -47,7 +44,6 @@ Eyra is a comprehensive mental health support platform that bridges the gap betw
 
 **Mission:** To make mental health support more accessible, interactive, and less intimidating.
 
-<br><br>
 ---
 <br><br>
 
@@ -59,18 +55,11 @@ Eyra is a comprehensive mental health support platform that bridges the gap betw
 <br>
 
 <p align="center">
-  <img src="ScreenShots%20of%20Project/1-Home%20Page.png" width="700"><br><br>
-  <img src="ScreenShots%20of%20Project/2-homepage.png" width="700"><br><br>
-  <img src="ScreenShots%20of%20Project/3-chat.png" width="700"><br><br>
-  <img src="ScreenShots%20of%20Project/4-conversation%20report.png" width="700"><br><br>
-  <img src="ScreenShots%20of%20Project/5-Tests%20dropdown%20menu.png" width="700"><br><br>
-  <img src="ScreenShots%20of%20Project/6-Test%20UI.png" width="700"><br><br>
-  <img src="ScreenShots%20of%20Project/7-Depresssoin%20Tests%20Sample%20-%20result,%20email,%20more%20info.png" width="700">
+  <img src="ScreenShots%20of%20Project/1-Home%20Page.png" width="700">  <img src="ScreenShots%20of%20Project/2-homepage.png" width="700">  <img src="ScreenShots%20of%20Project/3-chat.png" width="700">  <img src="ScreenShots%20of%20Project/4-conversation%20report.png" width="700">  <img src="ScreenShots%20of%20Project/5-Tests%20dropdown%20menu.png" width="700">  <img src="ScreenShots%20of%20Project/6-Test%20UI.png" width="700">  <img src="ScreenShots%20of%20Project/7-Depresssoin%20Tests%20Sample%20-%20result,%20email,%20more%20info.png" width="700">
 </p>
 
 </details>
 
-<br><br>
 ---
 <br><br>
 
@@ -131,7 +120,6 @@ Advanced emotion detection through real-time facial analysis:
 
 > **⚠️ Note:** This feature is experimental and intended for awareness only, not diagnostic purposes.
 
-<br><br>
 ---
 <br><br>
 
@@ -156,7 +144,6 @@ Advanced emotion detection through real-time facial analysis:
 - **Google Generative AI** – LLM integration for conversational AI
 - **JWT (JSON Web Tokens)** – Secure user authentication and authorization
 
-<br><br>
 ---
 <br><br>
 
@@ -218,7 +205,6 @@ Response (JSON)
 State Management (Context API) → UI Update
 ```
 
-<br><br>
 ---
 <br><br>
 
@@ -289,7 +275,6 @@ npm run dev
 
 This runs both frontend and backend concurrently in development mode.
 
-<br><br>
 ---
 <br><br>
 
@@ -330,7 +315,6 @@ eyra/
 └── README.md                    # This file
 ```
 
-<br><br>
 ---
 <br><br>
 
@@ -357,7 +341,6 @@ eyra/
 - **Privacy Policy** – Transparent data handling practices
 - **Right to Deletion** – Users can request account and data deletion
 
-<br><br>
 ---
 <br><br>
 
@@ -378,7 +361,6 @@ If you are experiencing a mental health crisis or severe symptoms, please seek i
 
 **Your safety is our priority.** Always prioritize professional help when needed.
 
-<br><br>
 ---
 <br><br>
 
@@ -396,7 +378,6 @@ If you are experiencing a mental health crisis or severe symptoms, please seek i
 - **Offline Mode** – Ability to access certain features without internet connection
 - **Integration with Wearables** – Heart rate, sleep, and activity data for holistic health tracking
 
-<br><br>
 ---
 <br><br>
 
@@ -412,7 +393,6 @@ We welcome contributions from the community. To contribute:
 
 Please ensure all code adheres to our style guidelines and includes appropriate tests.
 
-<br><br>
 ---
 <br><br>
 
@@ -420,7 +400,6 @@ Please ensure all code adheres to our style guidelines and includes appropriate 
 
 This project is licensed under the MIT License – see the LICENSE file for details.
 
-<br><br>
 ---
 <br><br>
 
@@ -432,7 +411,6 @@ For issues, feature requests, or general inquiries:
 - **Email:** support@eyra.app
 - **Documentation:** See the `/docs` directory for detailed guides
 
-<br><br>
 ---
 <br><br>
 
@@ -444,7 +422,6 @@ Special thanks to:
 - Mental health professionals who guided our assessment design
 - All contributors and users who provide feedback and support
 
-<br><br>
 ---
 <br><br>
 
@@ -454,7 +431,6 @@ Mental health matters. Eyra is built to provide a **safe, accessible starting po
 
 *Take care of your mind. You deserve it.*
 
-<br><br>
 ---
 <br><br>
 
