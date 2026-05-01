@@ -13,7 +13,11 @@
 | **Aayush Sharma**  | 2210991138  |
 |  **Yashasvi Nag**  | 2210990975  |
 
----
+------
+
+
+
+
 
 An intelligent, accessible, and user-centric platform designed to provide evidence-based mental health support through conversational AI, clinically-grounded assessments, and intuitive design.
 
