@@ -13,17 +13,10 @@
 | **Aayush Sharma**  | 2210991138  |
 |  **Yashasvi Nag**  | 2210990975  |
 
----
----
-
-
-
-
-
+<br>
 An intelligent, accessible, and user-centric platform designed to provide evidence-based mental health support through conversational AI, clinically-grounded assessments, and intuitive design.
 
----
-
+<br>
 ## 📋 Table of Contents
 
 - [Overview](#overview)
@@ -37,16 +30,14 @@ An intelligent, accessible, and user-centric platform designed to provide eviden
 - [Disclaimer](#disclaimer)
 - [Future Roadmap](#future-roadmap)
 
----
-
+<br>
 ## Overview
 
 Eyra is a comprehensive mental health support platform that bridges the gap between users seeking help and accessible mental wellness resources. By combining advanced AI technology with clinical psychology principles, Eyra creates a safe, private space for individuals to explore their emotional well-being without judgment or barriers.
 
 **Mission:** To make mental health support more accessible, interactive, and less intimidating.
 
----
-
+<br>
 ## Screenshots
 
 <details>
@@ -76,8 +67,7 @@ Eyra is a comprehensive mental health support platform that bridges the gap betw
 </details>
 
 
----
-
+<br>
 ## Features
 
 ### 💬 AI-Powered Chat Support
@@ -135,8 +125,7 @@ Advanced emotion detection through real-time facial analysis:
 
 > **⚠️ Note:** This feature is experimental and intended for awareness only, not diagnostic purposes.
 
----
-
+<br>
 ## Tech Stack
 
 ### Frontend
@@ -158,8 +147,7 @@ Advanced emotion detection through real-time facial analysis:
 - **Google Generative AI** – LLM integration for conversational AI
 - **JWT (JSON Web Tokens)** – Secure user authentication and authorization
 
----
-
+<br>
 ## Architecture
 
 Eyra follows the **MERN stack** architecture, providing seamless data flow between client and server with modern best practices for scalability and maintainability.
@@ -218,8 +206,7 @@ Response (JSON)
 State Management (Context API) → UI Update
 ```
 
----
-
+<br>
 ## Installation & Setup
 
 ### Prerequisites
@@ -287,8 +274,7 @@ npm run dev
 
 This runs both frontend and backend concurrently in development mode.
 
----
-
+<br>
 ## Project Structure
 
 ```
@@ -326,8 +312,7 @@ eyra/
 └── README.md                    # This file
 ```
 
----
-
+<br>
 ## Security & Privacy
 
 ### Authentication & Authorization
@@ -351,8 +336,7 @@ eyra/
 - **Privacy Policy** – Transparent data handling practices
 - **Right to Deletion** – Users can request account and data deletion
 
----
-
+<br>
 ## Disclaimer
 
 **Important Notice:**
@@ -370,8 +354,7 @@ If you are experiencing a mental health crisis or severe symptoms, please seek i
 
 **Your safety is our priority.** Always prioritize professional help when needed.
 
----
-
+<br>
 ## Future Roadmap
 
 ### Planned Enhancements
@@ -386,8 +369,7 @@ If you are experiencing a mental health crisis or severe symptoms, please seek i
 - **Offline Mode** – Ability to access certain features without internet connection
 - **Integration with Wearables** – Heart rate, sleep, and activity data for holistic health tracking
 
----
-
+<br>
 ## Contributing
 
 We welcome contributions from the community. To contribute:
@@ -400,14 +382,12 @@ We welcome contributions from the community. To contribute:
 
 Please ensure all code adheres to our style guidelines and includes appropriate tests.
 
----
-
+<br>
 ## License
 
 This project is licensed under the MIT License – see the LICENSE file for details.
 
----
-
+<br>
 ## Support
 
 For issues, feature requests, or general inquiries:
@@ -416,8 +396,7 @@ For issues, feature requests, or general inquiries:
 - **Email:** support@eyra.app
 - **Documentation:** See the `/docs` directory for detailed guides
 
----
-
+<br>
 ## Acknowledgments
 
 Special thanks to:
@@ -426,15 +405,13 @@ Special thanks to:
 - Mental health professionals who guided our assessment design
 - All contributors and users who provide feedback and support
 
----
-
+<br>
 ## ❤️ Final Note
 
 Mental health matters. Eyra is built to provide a **safe, accessible starting point** for understanding and improving emotional well-being. Remember, seeking professional help is a sign of strength, not weakness.
 
 *Take care of your mind. You deserve it.*
 
----
-
+<br>
 **Last Updated:** April 2026  
 **Version:** 1.0.0
