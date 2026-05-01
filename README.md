@@ -2,7 +2,7 @@
 
 > **Project Title:** Eyra  
 > **Project Type:** Copyright  
-> **Submission Status:** Ready for Submission 
+> **Submission Status:** Submitted
 
 ### 👥 Team Details
 
@@ -14,9 +14,15 @@
 |  **Yashasvi Nag**  | 2210990975  |
 
 <br>
+---
+<br>
+
 An intelligent, accessible, and user-centric platform designed to provide evidence-based mental health support through conversational AI, clinically-grounded assessments, and intuitive design.
 
 <br>
+---
+<br>
+
 ## 📋 Table of Contents
 
 - [Overview](#overview)
@@ -31,6 +37,9 @@ An intelligent, accessible, and user-centric platform designed to provide eviden
 - [Future Roadmap](#future-roadmap)
 
 <br>
+---
+<br>
+
 ## Overview
 
 Eyra is a comprehensive mental health support platform that bridges the gap between users seeking help and accessible mental wellness resources. By combining advanced AI technology with clinical psychology principles, Eyra creates a safe, private space for individuals to explore their emotional well-being without judgment or barriers.
@@ -38,36 +47,32 @@ Eyra is a comprehensive mental health support platform that bridges the gap betw
 **Mission:** To make mental health support more accessible, interactive, and less intimidating.
 
 <br>
-## Screenshots
+---
+<br>
+
+## 📸 Screenshots
 
 <details>
-<summary>📸 View Project Screenshots</summary>
+<summary>Click to view all screenshots</summary>
 
 <br>
 
 <p align="center">
-  <img src="ScreenShots%20of%20Project/1-Home%20Page.png" width="45%">
-  <img src="ScreenShots%20of%20Project/2-homepage.png" width="45%">
-</p>
-
-<p align="center">
-  <img src="ScreenShots%20of%20Project/3-chat.png" width="45%">
-  <img src="ScreenShots%20of%20Project/4-conversation%20report.png" width="45%">
-</p>
-
-<p align="center">
-  <img src="ScreenShots%20of%20Project/5-Tests%20dropdown%20menu.png" width="45%">
-  <img src="ScreenShots%20of%20Project/6-Test%20UI.png" width="45%">
-</p>
-
-<p align="center">
-  <img src="ScreenShots%20of%20Project/7-Depresssoin%20Tests%20Sample%20-%20result,%20email,%20more%20info.png" width="60%">
+  <img src="ScreenShots%20of%20Project/1-Home%20Page.png" width="700"><br><br>
+  <img src="ScreenShots%20of%20Project/2-homepage.png" width="700"><br><br>
+  <img src="ScreenShots%20of%20Project/3-chat.png" width="700"><br><br>
+  <img src="ScreenShots%20of%20Project/4-conversation%20report.png" width="700"><br><br>
+  <img src="ScreenShots%20of%20Project/5-Tests%20dropdown%20menu.png" width="700"><br><br>
+  <img src="ScreenShots%20of%20Project/6-Test%20UI.png" width="700"><br><br>
+  <img src="ScreenShots%20of%20Project/7-Depresssoin%20Tests%20Sample%20-%20result,%20email,%20more%20info.png" width="700">
 </p>
 
 </details>
 
-
 <br>
+---
+<br>
+
 ## Features
 
 ### 💬 AI-Powered Chat Support
@@ -126,6 +131,9 @@ Advanced emotion detection through real-time facial analysis:
 > **⚠️ Note:** This feature is experimental and intended for awareness only, not diagnostic purposes.
 
 <br>
+---
+<br>
+
 ## Tech Stack
 
 ### Frontend
@@ -148,6 +156,9 @@ Advanced emotion detection through real-time facial analysis:
 - **JWT (JSON Web Tokens)** – Secure user authentication and authorization
 
 <br>
+---
+<br>
+
 ## Architecture
 
 Eyra follows the **MERN stack** architecture, providing seamless data flow between client and server with modern best practices for scalability and maintainability.
@@ -207,6 +218,9 @@ State Management (Context API) → UI Update
 ```
 
 <br>
+---
+<br>
+
 ## Installation & Setup
 
 ### Prerequisites
@@ -275,6 +289,9 @@ npm run dev
 This runs both frontend and backend concurrently in development mode.
 
 <br>
+---
+<br>
+
 ## Project Structure
 
 ```
@@ -313,6 +330,9 @@ eyra/
 ```
 
 <br>
+---
+<br>
+
 ## Security & Privacy
 
 ### Authentication & Authorization
@@ -337,6 +357,9 @@ eyra/
 - **Right to Deletion** – Users can request account and data deletion
 
 <br>
+---
+<br>
+
 ## Disclaimer
 
 **Important Notice:**
@@ -355,6 +378,9 @@ If you are experiencing a mental health crisis or severe symptoms, please seek i
 **Your safety is our priority.** Always prioritize professional help when needed.
 
 <br>
+---
+<br>
+
 ## Future Roadmap
 
 ### Planned Enhancements
@@ -370,6 +396,9 @@ If you are experiencing a mental health crisis or severe symptoms, please seek i
 - **Integration with Wearables** – Heart rate, sleep, and activity data for holistic health tracking
 
 <br>
+---
+<br>
+
 ## Contributing
 
 We welcome contributions from the community. To contribute:
@@ -383,11 +412,17 @@ We welcome contributions from the community. To contribute:
 Please ensure all code adheres to our style guidelines and includes appropriate tests.
 
 <br>
+---
+<br>
+
 ## License
 
 This project is licensed under the MIT License – see the LICENSE file for details.
 
 <br>
+---
+<br>
+
 ## Support
 
 For issues, feature requests, or general inquiries:
@@ -397,6 +432,9 @@ For issues, feature requests, or general inquiries:
 - **Documentation:** See the `/docs` directory for detailed guides
 
 <br>
+---
+<br>
+
 ## Acknowledgments
 
 Special thanks to:
@@ -406,6 +444,9 @@ Special thanks to:
 - All contributors and users who provide feedback and support
 
 <br>
+---
+<br>
+
 ## ❤️ Final Note
 
 Mental health matters. Eyra is built to provide a **safe, accessible starting point** for understanding and improving emotional well-being. Remember, seeking professional help is a sign of strength, not weakness.
@@ -413,5 +454,8 @@ Mental health matters. Eyra is built to provide a **safe, accessible starting po
 *Take care of your mind. You deserve it.*
 
 <br>
+---
+<br>
+
 **Last Updated:** April 2026  
 **Version:** 1.0.0
