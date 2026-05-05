@@ -4,14 +4,6 @@
 > **Project Type:** Copyright  
 > **Submission Status:** Submitted
 
-### 👥 Team Details
-
-|        Name        | Roll Number |
-| :----------------: | :---------: |
-| **Jashanjit Kaur** | 2210990440  |
-|  **Vrinda Verma**  | 2210990969  |
-| **Aayush Sharma**  | 2210991138  |
-|  **Yashasvi Nag**  | 2210990975  |
 
 ---
 
@@ -54,13 +46,14 @@ Eyra is a comprehensive mental health support platform that bridges the gap betw
 <br>
 
 <p align="center">
-  <img src="ScreenShots%20of%20Project/1-Home%20Page.png" width="700"><br><br>
-  <img src="ScreenShots%20of%20Project/2-homepage.png" width="700"><br><br>
-  <img src="ScreenShots%20of%20Project/3-chat.png" width="700"><br><br>
-  <img src="ScreenShots%20of%20Project/4-conversation%20report.png" width="700"><br><br>
-  <img src="ScreenShots%20of%20Project/5-Tests%20dropdown%20menu.png" width="700"><br><br>
-  <img src="ScreenShots%20of%20Project/6-Test%20UI.png" width="700"><br><br>
-  <img src="ScreenShots%20of%20Project/7-Depresssoin%20Tests%20Sample%20-%20result,%20email,%20more%20info.png" width="700">
+    <img src="Visuals_Screenshots/1-Home Page.png" width="700"><br><br>
+    <img src="Visuals_Screenshots/2-homepage.png" width="700"><br><br>
+    <img src="Visuals_Screenshots/3-chat.png" width="700"><br><br>
+    <img src="Visuals_Screenshots/4-conversation report.png" width="700"><br><br>
+    <img src="Visuals_Screenshots/5-Tests dropdown menu.png" width="700"><br><br>
+    <img src="Visuals_Screenshots/6-Test UI.png" width="700"><br><br>
+    <img src="Visuals_Screenshots/7-Depresssoin Tests Sample - result, email, more info.png" width="700"><br><br>
+    <img src="Visuals_Screenshots/7-profile.png" width="700">
 </p>
 
 </details>
@@ -373,18 +366,11 @@ If you are experiencing a mental health crisis or severe symptoms, please seek i
 
 ### Planned Enhancements
 
-- **Advanced Emotion Detection** – Improved facial analysis with better accuracy
-- **Personalized AI Responses** – Machine learning models fine-tuned for individual user needs
-- **Professional Integration** – Secure referral pathway to licensed therapists
-- **Advanced Analytics Dashboard** – Deeper insights into mental health patterns over time
 - **Mobile App** – Native iOS and Android applications
 - **Peer Support Community** – Moderated peer-to-peer support features
 - **Multi-Language Support** – Expanded language coverage beyond current offerings
-- **Offline Mode** – Ability to access certain features without internet connection
-- **Integration with Wearables** – Heart rate, sleep, and activity data for holistic health tracking
 
 ---
-
 
 ## Contributing
 
@@ -399,14 +385,6 @@ We welcome contributions from the community. To contribute:
 Please ensure all code adheres to our style guidelines and includes appropriate tests.
 
 ---
-
-
-## License
-
-This project is licensed under the MIT License – see the LICENSE file for details.
-
----
-
 
 ## Support
 
